@@ -4,6 +4,6 @@
 
 @layer base {
     html {
-        @apply bg-slate-900;
+        @apply bg-gradient-to-t from-slate-900 from-40% to-teal-900 to-100%;
     }
 }

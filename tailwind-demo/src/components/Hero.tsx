@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-      <div className="h-screen flex items-center bg-gradient-to-t from-slate-900 from-40% to-teal-900 to-100% text-gray-100">
+      <div className="h-screen flex items-center  text-gray-100">
         <div className ='text-center mx-auto'>
             <h1 className='text-7xl text-left font-medium'>Build MVP in six weeks<br></br>Within your budget</h1>
             <p className='text-xl text-left mt-5 font-light'>Struggling to hire the right team? Or finding agencies too costly?<br></br>

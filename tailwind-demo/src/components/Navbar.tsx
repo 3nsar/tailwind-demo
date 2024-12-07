@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/react.svg'
+import {Menu, X} from 'lucide-react';
 
 const Navbar = () => {
   return (
@@ -17,8 +18,8 @@ const Navbar = () => {
                   <li><a href="#">Pricing</a></li>
                 </ul>
                 <div className=" hidden lg:flex justify-center items-center space-x-5 mx-3">
-                  <a href="#" className='py-2 px-3 border rounded-md bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300'>Sign In</a>
-                  <a href="#" className='py-2 px-3 border rounded-md bg-slate-900 border border-gray-100  hover:border-slate-900 hover:bg-teal-600'>Create an account</a>
+                  <a href="#" className='py-2 px-3 rounded-md bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300'>Sign In</a>
+                  <a href="#" className='py-2 px-3 border rounded-md bg-none border-md hover:border-teal-600 hover:bg-teal-600'>Create an account</a>
                 </div>
             </div>
 
