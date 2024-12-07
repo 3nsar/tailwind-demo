@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react' 
 
 const Hero = () => {
   return (
-      <div className="h-screen flex items-center">
+      <div className="h-screen flex items-center bg-gradient-to-t from-slate-900 from-40% to-teal-900 to-100% text-gray-100">
         <div className ='text-center mx-auto'>
-            <h1 className='text-6xl text-left font-semibold'>Build MVP in six weeks<br></br>Within your budget</h1>
-            <p className='text-xl text-left mt-5'>Struggling to hire the right team? Or finding agencies too costly?<br></br>
+            <h1 className='text-7xl text-left font-medium'>Build MVP in six weeks<br></br>Within your budget</h1>
+            <p className='text-xl text-left mt-5 font-light'>Struggling to hire the right team? Or finding agencies too costly?<br></br>
                                          We deliver your first product within six weeks, efficiently and affordably.
             </p>
-            <button className='mt-5 p-2 rounded bg-blue-700'>Click Me!</button>
+            <div className="flex">
+                <button className='mt-5 mr-2 p-2 pr-5 pl-5 rounded bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300'>Build your first MVP!</button>
+                <button className=' mt-5 ml-2 p-2 pr-5 pl-5 rounded bg-slate-900 border border-gray-100  hover:border-slate-900 hover:bg-teal-600'>Learn More</button>
+            </div>
 
          </div>
 
