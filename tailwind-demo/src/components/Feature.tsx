@@ -12,12 +12,12 @@ const Feature = () => {
             {features.map((feature,index)=>(
                 <div key={index} className='w-full sm:w-1/2 lg:w-1/3'>
                     <div className="flex">
-                        <div className="flex mx-6 h-10 w-10 p-2 bg-slate-800 text-teal-500 justify-center items-center rounded-full">
+                        <div className="flex mx-10 h-10 w-10 p-2 bg-slate-800 text-teal-500 justify-center items-center rounded-full">
                             {feature.icon}
                         </div>
                         <div>
-                            <h5 className='mt-1 mb-6 text-lg'>{feature.text}</h5>
-                            <p className='text-md p-2 mb-20 text-neutral-500'>{feature.description}</p>
+                            <h5 className='mt-1 mb-2 text-lg'>{feature.text}</h5>
+                            <p className='text-md p-2 mb-10 text-neutral-500'>{feature.description}</p>
                         </div>
                     </div>
                 </div>
